@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --color-marine-blue: #02295a;
+  --color-purplish-blue: #473dff;
+  --color-pastel-blue: #adbeff;
+  --color-light-blue: #bfe2fd;
+  --color-strawberry-red: hsl(354, 84%, 57%);
+  --Cool-gray: #9699ab;
+  --Light-gray: #;
+  --Magnolia: hsl(217, 100%, 97%);
+  --Alabaster: hsl(231, 100%, 99%);
+  --White: hsl(0, 0%, 100%);
+}
+
+@font-face {
+  font-family: "Ubuntu-medium";
+  src: url("./assets/fonts/Ubuntu-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu-bold";
+  src: url("./assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f0f6ff;
+  max-width: 100vw;
+  max-height: 100vh;
+}
